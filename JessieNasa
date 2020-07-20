@@ -1,0 +1,55 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <section class= "nasa">
+                <h1>NASA</h1>
+        </section>
+        
+        <main>
+            <section class="social-media">
+                <h2>Social Media</h2>
+                <ul>
+                    <li>Twitter- @nasa</li>
+                    <li>Facebook- fb.com/nasa</li>
+                    <li>Instagram- @nasa</li>
+                    <li>YouTube- youtube.com/NASA</li>
+                </ul>
+            </section>
+            <section>
+                <h2>OFFICE INFO</h2>
+                <ul>
+                    <li>Public Communications Office</li>
+                    <li>NASA Headquarters</li>
+                    <li>300 E. Street 5W, Suite 5R30</li>
+                    <li>Washington, DC 20546</li>
+                    <li>(202) 358-0001 (Office)</li>
+                    <li>(202) 358-4338 (Fax)</li>
+                </ul>
+            </section>
+            <section>
+                <h2>CONTACT US</h2>
+                <form action="">
+                    <label for="firstname">Name</label>
+                    <br>
+                    <input class="input-height no-border" name="firstname" size="30" type="text" name="fname"/>
+                    <br>
+                    <label for="message">Message</label> 
+                    <br>
+                    <textarea class="no-border textarea-resize" name="message" rows="4" cols="25"> </textarea>
+                    <br>
+                    <input class="button no-border" type="button" value="send">
+                </form>
+            </section>
+
+        </main>
+    
+</body>
+</html>
+© 2020 GitHub, Inc.
